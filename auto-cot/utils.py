@@ -55,7 +55,7 @@ def decoder_for_gpt3(args, input, max_length):
     time.sleep(args.api_time_interval)
     
     #https://beta.openai.com/account/api-keys
-    openai.api_key = "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"
+    openai.api_key = "YOUR_OPENAI_KEY"
     
     # Specify engine ...
     # Instruct GPT3
